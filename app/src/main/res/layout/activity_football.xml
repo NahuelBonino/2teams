@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Football">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:foregroundGravity="center|center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/players"
+        android:textSize="30sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="51dp"
+        android:text="@string/ingresar"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="581dp"
+        android:layout_below="@+id/titulo"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol0"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol1"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol2"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol3"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol4"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol5"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol6"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol7"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol8"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/player18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/futbol9"
+                android:inputType="textPersonName"
+                android:singleLine="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Go"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="actionfive"
+        android:text="@string/Go"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="#FCA01515" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_toStartOf="@+id/Go"
+        android:layout_toLeftOf="@+id/Go"
+        app:srcCompat="@mipmap/pelot" />
+
+</RelativeLayout>

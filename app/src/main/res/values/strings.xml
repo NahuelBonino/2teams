@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Grupos</string>
+    <string name="titulo">42Teams</string>
+
+    <string name="players">Players</string>
+
+    <string name="ingresar">Ingresar nombres:</string>
+    <string name="Go">Formar</string>
+    <string name="Next">Next</string>
+    <string name="dados">dados</string>
+
+    <string name="cant">jugadores por equipo:</string>
+
+    <string name="futbol0">player 1</string>
+    <string name="futbol1">player 2</string>
+    <string name="futbol2">player 3</string>
+    <string name="futbol3">player 4</string>
+    <string name="futbol4">player 5</string>
+    <string name="futbol5">player 6</string>
+    <string name="futbol6">player 7</string>
+    <string name="futbol7">player 8</string>
+    <string name="futbol8">player 9</string>
+    <string name="futbol9">player 10</string>
+
+    <string name="team1">Equipo 1</string>
+    <string name="team2">Equipo 2</string>
+
+</resources>
